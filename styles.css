@@ -1,0 +1,258 @@
+/* Global Styles */
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #2b2b2b; /* Dark background */
+  color: #ffffff; /* Light text color */
+  margin: 0; /* Remove default margin */
+}
+
+h2 {
+  font-size: 40px;
+}
+
+#home {
+  height: 100vh; /* Full height of the viewport */
+  display: flex;
+  flex-direction: column;
+
+  background-image: url("images/blue-binary.gif");
+  /* background-image: url("images/hero-bg1.jpg"); */
+  background-size: cover; /* Cover the entire area */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent image from repeating */
+}
+/* Navbar Styles */
+.navbar {
+  /* background-color: rgba(5, 5, 5, 0.75);  */
+  /* pointer-events: none; */
+  padding: 1rem; /* Add padding */
+  position: fixed;
+  top: 0; /* Stick to the top of the viewport */
+  width: 100%; /* Full width */
+  z-index: 999; /* Make sure it stays on top of other elements */
+}
+.navbar-toggler {
+  background-color: rgba(10, 10, 10, 0.7);
+}
+/* Keep navbar items always visible */
+.navbar-nav .nav-link {
+  font-size: 1.1rem; /* Increase link size */
+}
+
+.nav-item {
+  padding: 5px;
+}
+
+.navbar-nav {
+  background-color: rgba(10, 10, 10, 0.7);
+  margin: 10px;
+  padding-left: 10px;
+  padding-right: 5px;
+  border-radius: 30px;
+}
+
+/* Hero Section Styles */
+.hero {
+  flex-grow: 1;
+
+  display: flex;
+  align-items: center;
+  color: white; /* Text color */
+  position: relative; /* For absolute positioning */
+  overflow: hidden; /* Hide overflowing content */
+}
+
+.hero-text {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 1em;
+  border-radius: 2em;
+}
+
+.hero-overlay {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  padding: 2rem;
+  text-align: center; /* Center text */
+}
+
+.hero img {
+  border: 4px solid white; /* Optional: Add a border to your image */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+a.fab {
+  padding: 0.5em;
+  border: solid 3px white;
+  border-radius: 1000px;
+}
+
+a.fab:hover {
+  background-color: rgba(100, 100, 100, 0.8);
+  text-decoration: none;
+}
+
+#about p {
+  font-size: 20px;
+}
+
+/* Skill Grid Styles */
+#skills {
+  background-image: url("images/bg-code.jpg");
+  background-size: cover; /* Cover the entire area */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat;
+}
+#skills .container {
+  border-radius: 20px;
+  background-color: rgba(50, 50, 50, 0.5);
+}
+
+/* Skill Box Styles */
+.skill-box {
+  background-color: #333; /* Dark background for skill boxes */
+  border-radius: 20px; /* Rounded edges for skill boxes */
+  transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition for effects */
+  color: #ffffff; /* Text color for skill boxes */
+  text-align: center;
+}
+
+.skill-box:hover {
+  transform: scale(1.1); /* Scale effect on hover */
+}
+
+#experience {
+  /* background-image: url("images/blue-binary.gif"); */
+  background-image: url("images/hero-bg1.jpg");
+  background-size: cover; /* Cover the entire area */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat;
+}
+/* Experience Box Styles */
+.experience-box {
+  background-color: #323336; /* Dark background for experience boxes */
+  border-radius: 10px; /* Border color */
+  transition: transform 0.3s;
+}
+
+.experience-box:hover {
+  transform: translateY(-5px); /* Lift effect on hover */
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+}
+
+/* Project Card Styles */
+.project-card {
+  background-color: #1f1f1f;
+  border: none; /* Remove default Bootstrap border */
+  border-radius: 10px; /* Rounded corners for project cards */
+  transition: transform 0.3s;
+}
+
+.project-card:hover {
+  transform: scale(1.05); /* Scale effect on hover */
+}
+
+/* Contact Form Styles */
+.contact-form {
+  background-color: #1f1f1f; /* Dark background for form */
+  border-radius: 10px;
+  padding: 2rem;
+  margin-top: 2rem; /* Space above the form */
+  box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1);
+}
+
+.contact-form label {
+  color: #ffffff; /* Label color */
+}
+
+.contact-form input,
+.contact-form textarea {
+  background-color: #333; /* Dark background for inputs */
+  color: #ffffff; /* Text color */
+  border: 1px solid #444; /* Border color */
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #007bff; /* Border color on focus */
+  outline: none; /* Remove default outline */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .hero {
+    /* Allow height to adjust on smaller screens */
+    padding: 50px 0;
+  }
+
+  .hero h1 {
+    font-size: 2.5rem; /* Smaller text size for heading */
+  }
+
+  .hero p {
+    font-size: 1.2rem; /* Smaller text size for paragraph */
+  }
+}
+
+/* Social Links Styles */
+.social-links {
+  margin-top: 1rem; /* Add space above social links */
+}
+
+.social-links a {
+  margin: 0 10px;
+  color: white; /* Social media links color */
+  font-size: 1.5rem; /* Size of social icons */
+  transition: color 0.3s; /* Smooth transition for hover effect */
+}
+
+.social-links a:hover {
+  color: #f8f9fa; /* Change color on hover */
+}
+
+/* Back Button Styles */
+.back-button {
+  margin: 20px; /* Margin for the back button */
+  position: absolute; /* Position it in the top left */
+  top: 20px;
+  left: 20px;
+  z-index: 1000; /* Ensure it's on top of other elements */
+}
+/* Contact Section Title Spacing */
+.contact-section h2 {
+  margin-top: 50px; /* Add space above the title */
+  margin-bottom: 20px; /* Optional: add space below the title */
+  color: #ffffff; /* Ensure the title color is white for visibility */
+  text-align: center; /* Center the title text */
+}
+
+/* Project pages CSS */
+.tech-card {
+  border-radius: 15px;
+  transition: transform 0.4s, box-shadow 0.4s;
+}
+
+.tech-card:hover {
+  transform: translateY(-5px) scale(1.07);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+}
+
+.tech-card i {
+  color: #ffffff;
+  animation: icon-bounce 1s infinite alternate;
+}
+
+.tech-card h5 {
+  font-size: 1.1rem;
+  letter-spacing: 0.5px;
+}
+
+/* Icon bounce animation */
+@keyframes icon-bounce {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-8px);
+  }
+}
