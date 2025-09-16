@@ -1,567 +1,514 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Kuba Jozefowicz - Portfolio</title>
-    <link rel="icon" href="images/icon.png" type="image/x-icon">
-    <link
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-    />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <section id="home"> 
-    
-      <!-- Navbar --> <nav class="navbar navbar-expand-lg navbar-dark"> <div class="container-fluid"> <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" > <span class="navbar-toggler-icon"></span> </button> <div class="collapse navbar-collapse justify-content-center" id="navbarNav" > <ul class="navbar-nav mx-auto"> <!-- Centering the navbar items --> <li class="nav-item"> <a class="nav-link text-white" href="#home">Home</a> </li> <li class="nav-item"> <a class="nav-link text-white" href="#about">About</a> </li> <li class="nav-item"> <a class="nav-link text-white" href="#experience" >Work Experience</a > </li> <li class="nav-item"> <a class="nav-link text-white" href="#projects">Projects</a> </li> <li class="nav-item"> <a class="nav-link text-white" href="#skills">Skills</a> </li> <!-- <li class="nav-item"> <a class="nav-link text-white" href="#contact">Contact</a> </li> --> </ul> </div> </div> </nav> <!-- Hero Section --> <header class="hero"> <div class="hero-overlay"> <div class="container"> <div class="row justify-content-center align-items-center"> <div class="text-center"> <img src="images/pfp.jpg" alt="Your Face" class="rounded-circle" style="width: 20em; aspect-ratio: 1" /> </div> <div class="hero-text m-4 col-md-6 text-center"> <h1 class="display-4">Hi, I'm Kuba Jozefowicz</h1> <p class="lead"> I'm a Computer Science student and aspiring Software Engineer with a passion for building innovative solutions. </p> <div class="social-links"> <a href="https://github.com/KubaJ23" target="_blank" class="fab fa-github" ></a> <a href="https://www.linkedin.com/in/kubajozefowicz/" target="_blank" class="fab fa-linkedin" ></a> </div> </div> </div> </div> </div> </header> </section>
 
-<!-- About Section -->
-<section id="about" class="py-5">
-  <div class="container text-center">
-    <h2 class="mb-3">About Me</h2>
-    <p>
-      I am a Computer Science student at the University of Nottingham, working
-      towards a First-Class Honours degree (First Year: 91.8%, Second Year: 87.75%).
-      <br /><br />
-      I have designed and delivered AI-powered systems, scalable backend
-      applications, and data visualisation dashboards in both industry and
-      academic projects. Highlights include building a full-stack AI search
-      feature at Roku that reduced content discovery time by 35%, and leading an
-      8-person team in collaboration with Capital One to automate engineer
-      performance analysis using AI pipelines and interactive dashboards.
-      <br /><br />
-      I thrive on solving challenging problems, learning new technologies, and
-      delivering reliable software that makes an impact.
-    </p>
-  </div>
-</section>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kuba Jozefowicz - Portfolio</title>
+  <link rel="icon" href="images/icon.png" type="image/x-icon">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
 
-<!-- Work Experience Section -->
-<section id="experience" class="pt-3">
-  <div class="container">
-    <h2 class="text-center mb-3">Work Experience</h2>
-    <div class="row justify-content-center">
-      <!-- Roku -->
-      <div class="col-md-8 experience-box p-4 mb-4">
-        <h4>Full-Stack Software Engineer Intern</h4>
-        <p class="text-muted">
-          Roku <br />
-          Jun - Sept 2025
-        </p>
-        <ul>
-          <li>
-            Independently designed and implemented an AI-powered search tool
-            within Roku’s internal partner portal, enabling 50+ users to query
-            the TV model database using natural language.
-          </li>
-          <li>
-            Built the backend with Python/Flask and DynamoDB, halving response
-            latency through optimised AI prompting while maintaining accuracy.
-          </li>
-          <li>
-            Prototyped and deployed a RAG-based documentation search system,
-            integrating AWS services and Roku’s AI stack, reducing perceived
-            latency by ~30%.
-          </li>
-          <li>
-            Automated deployment and data processing with CI/CD pipelines,
-            improving engineering productivity and knowledge management.
-          </li>
-        </ul>
+<body>
+  <section id="home">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container-fluid"> <button class="navbar-toggler" type="button" data-toggle="collapse"
+          data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span
+            class="navbar-toggler-icon"></span> </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+          <ul class="navbar-nav mx-auto"> <!-- Centering the navbar items -->
+            <li class="nav-item"> <a class="nav-link text-white" href="#home">Home</a> </li>
+            <li class="nav-item"> <a class="nav-link text-white" href="#about">About</a> </li>
+            <li class="nav-item"> <a class="nav-link text-white" href="#experience">Experience</a> </li>
+            <li class="nav-item"> <a class="nav-link text-white" href="#projects">Projects</a> </li>
+            <li class="nav-item"> <a class="nav-link text-white" href="#skills">Skills</a> </li>
+            <!-- <li class="nav-item"> <a class="nav-link text-white" href="#contact">Contact</a> </li> -->
+          </ul>
+        </div>
       </div>
-
-      <!-- Capital One -->
-      <div class="col-md-8 experience-box p-4 mb-4">
-        <h4>Software Engineering Project</h4>
-        <p class="text-muted">
-          Capital One (University of Nottingham Partnership) <br />
-          Sept 2024 - Jun 2025
-        </p>
-        <ul>
-          <li>
-            Led an 8-person team to design and deploy an AI pipeline
-            (Python/Django, Docker, PostgreSQL) automating performance document
-            analysis previously done manually.
-          </li>
-          <li>
-            Built React/TypeScript dashboards to present insights via clear,
-            interactive visualisations.
-          </li>
-          <li>
-            Coordinated weekly with Capital One stakeholders to refine
-            requirements and present milestones.
-          </li>
-        </ul>
+    </nav> <!-- Hero Section -->
+    <header class="hero">
+      <div class="hero-overlay">
+        <div class="container">
+          <div class="row justify-content-center align-items-center">
+            <div class="text-center"> <img src="images/pfp.jpg" alt="Your Face" class="rounded-circle"
+                style="width: 20em; aspect-ratio: 1" /> </div>
+            <div class="hero-text m-4 col-md-6 text-center">
+              <h1 class="display-4">Hi, I'm Kuba Jozefowicz</h1>
+              <p class="lead"> Emerging software engineer with experience delivering
+                production-ready backend and AI systems. Skilled in Python, Java,
+                TypeScript, AWS, and Docker, I am passionate about building scalable,
+                reliable software that drives measurable impact.</p>
+              <div class="social-links"> <a href="https://github.com/KubaJ23" target="_blank" class="fab fa-github"></a>
+                <a href="https://www.linkedin.com/in/kubajozefowicz/" target="_blank" class="fab fa-linkedin"></a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
+    </header>
+  </section>
 
-      <!-- SGA -->
-      <div class="col-md-8 experience-box p-4 mb-4">
-        <h4>Software Engineer</h4>
-        <p class="text-muted">
-          SGA Technologies <br />
-          Aug - Sept 2024
-        </p>
-        <ul>
-          <li>
-            Designed and delivered a Python-based embedded Linux application for
-            real-time environmental monitoring, saving engineers over two hours
-            daily.
-          </li>
-          <li>
-            Increased testing efficiency by 40% and improved accuracy by
-            eliminating manual entry errors.
-          </li>
-          <li>
-            Enhanced performance through parallel processing, halving
-            computation time.
-          </li>
-          <li>
-            Partnered with engineers to define requirements and created
-            long-term documentation.
-          </li>
-        </ul>
-      </div>
+  <!-- About Section -->
+  <section id="about" class="py-5">
+    <div class="container text-center">
+      <h2 class="mb-3">About Me</h2>
+      <p>
+        I am a Computer Science student at the University of Nottingham, working
+        towards a First-Class Honours degree (First Year: 91.8%, Second Year: 87.75%).
+        <br /><br />
+        I have designed and delivered AI-powered systems, scalable backend
+        applications, and data visualisation dashboards in both industry and
+        academic projects. Highlights include building a full-stack AI search
+        feature at Roku that reduced content discovery time by 35%, and leading an
+        8-person team in collaboration with Capital One to automate engineer
+        performance analysis using AI pipelines and interactive dashboards.
+        <br /><br />
+        I thrive on solving challenging problems, learning new technologies, and
+        delivering reliable software that makes an impact.
+      </p>
+    </div>
+  </section>
 
-      <!-- Lifeguard -->
-      <div class="col-md-8 experience-box p-4 mb-4">
-        <h4>Lifeguard</h4>
-        <p class="text-muted">
-          Abbeycroft <br />
-          Dec 2021 - Sept 2023
-        </p>
-        <ul>
-          <li>
-            Built problem-solving skills by making fast, solution-focused
-            decisions in high-pressure situations.
-          </li>
-          <li>
-            Strengthened communication and collaboration by coordinating with
-            10+ colleagues during emergencies and training.
-          </li>
-          <li>
-            Ensured safety and positive experiences for all visitors through
-            consistent monitoring and attention to detail.
-          </li>
-        </ul>
+  <!-- Experience Section -->
+  <section id="experience" class="pt-3">
+    <div class="container">
+      <h2 class="text-center mb-3">Experience</h2>
+      <div class="row justify-content-center">
+        <!-- Roku -->
+        <div class="col-md-8 experience-box p-4 mb-4">
+          <h4>Full-Stack Software Engineer Intern</h4>
+          <p class="text-muted">
+            Roku <br />
+            Jun - Sept 2025
+          </p>
+          <ul>
+            <li>
+              Independently designed and implemented an AI-powered search tool
+              within Roku’s internal partner portal, enabling 50+ users to query
+              the TV model database using natural language.
+            </li>
+            <li>
+              Built the backend with Python/Flask and DynamoDB, halving response
+              latency through optimised AI prompting while maintaining accuracy.
+            </li>
+            <li>
+              Prototyped and deployed a RAG-based documentation search system,
+              integrating AWS services and Roku’s AI stack, reducing perceived
+              latency by ~30%.
+            </li>
+            <li>
+              Automated deployment and data processing with CI/CD pipelines,
+              improving engineering productivity and knowledge management.
+            </li>
+          </ul>
+        </div>
+
+        <!-- Capital One -->
+        <div class="col-md-8 experience-box p-4 mb-4">
+          <h4>Software Engineering Project</h4>
+          <p class="text-muted">
+            Capital One (University of Nottingham Partnership) <br />
+            Sept 2024 - Jun 2025
+          </p>
+          <ul>
+            <li>
+              Led an 8-person team to design and deploy an AI pipeline
+              (Python/Django, Docker, PostgreSQL) automating performance document
+              analysis previously done manually.
+            </li>
+            <li>
+              Built React/TypeScript dashboards to present insights via clear,
+              interactive visualisations.
+            </li>
+            <li>
+              Coordinated weekly with Capital One stakeholders to refine
+              requirements and present milestones.
+            </li>
+          </ul>
+        </div>
+
+        <!-- SGA -->
+        <div class="col-md-8 experience-box p-4 mb-4">
+          <h4>Software Engineer</h4>
+          <p class="text-muted">
+            SGA Technologies <br />
+            Aug - Sept 2024
+          </p>
+          <ul>
+            <li>
+              Designed and delivered a Python-based embedded Linux application for
+              real-time environmental monitoring, saving engineers over two hours
+              daily.
+            </li>
+            <li>
+              Increased testing efficiency by 40% and improved accuracy by
+              eliminating manual entry errors.
+            </li>
+            <li>
+              Enhanced performance through parallel processing, halving
+              computation time.
+            </li>
+            <li>
+              Partnered with engineers to define requirements and created
+              long-term documentation.
+            </li>
+          </ul>
+        </div>
+
+        <!-- Lifeguard -->
+        <div class="col-md-8 experience-box p-4 mb-4">
+          <h4>Lifeguard</h4>
+          <p class="text-muted">
+            Abbeycroft <br />
+            Dec 2021 - Sept 2023
+          </p>
+          <ul>
+            <li>
+              Built problem-solving skills by making fast, solution-focused
+              decisions in high-pressure situations.
+            </li>
+            <li>
+              Strengthened communication and collaboration by coordinating with
+              10+ colleagues during emergencies and training.
+            </li>
+            <li>
+              Ensured safety and positive experiences for all visitors through
+              consistent monitoring and attention to detail.
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
 
-    <!-- Projects Section -->
-    <section id="projects" class="pt-3">
-      <div class="container">
-        <h2 class="text-center mb-3">Projects</h2>
-        <div class="row">
-          <div class="col-md-6">
-            <div class="card project-card shadow-sm mb-4">
-              <img
-                src="images/projects/transpiler.svg"
-                class="card-img-top"
-                alt="Project 1"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Compiler</h5>
-                <p class="card-text">
-                  A compiler (transpiler) for my own language called K sharp. It
-                  is a procedural language that is meant to be easy to
-                  understand and quick to learn.
-                </p>
-                <a
-                  href="https://github.com/KubaJ23/Ksharp-compiler"
-                  class="btn btn-outline-primary"
-                  >View Project</a
-                >
-              </div>
+  <!-- Projects Section -->
+  <section id="projects" class="pt-3">
+    <div class="container">
+      <h2 class="text-center mb-3">Projects</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card project-card shadow-sm mb-4">
+            <img src="images/projects/transpiler.svg" class="card-img-top" alt="Project 1" />
+            <div class="card-body">
+              <h5 class="card-title">Compiler</h5>
+              <p class="card-text">
+                A compiler (transpiler) for my own language called K sharp. It
+                is a procedural language that is meant to be easy to
+                understand and quick to learn.
+              </p>
+              <a href="https://github.com/KubaJ23/Ksharp-compiler" class="btn btn-outline-primary">View Project</a>
             </div>
           </div>
-          <div class="col-md-6">
-            <div class="card project-card shadow-sm mb-4">
-              <img
-                src="images/projects/stock-analysis.png"
-                class="card-img-top"
-                alt="Project 2"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Stock Analysis Website</h5>
-                <p class="card-text">
-                  A website where you can save and track stocks on your profile.
-                  You can brief informationon your stocks quickly uch as the
-                  CEO, website, and a description of the company.
-                </p>
-                <a href="https://github.com/KubaJ23/Stock-analysis-website" class="btn btn-outline-primary"
-                  >View Project</a
-                >
-              </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card project-card shadow-sm mb-4">
+            <img src="images/projects/stock-analysis.png" class="card-img-top" alt="Project 2" />
+            <div class="card-body">
+              <h5 class="card-title">Stock Analysis Website</h5>
+              <p class="card-text">
+                A website where you can save and track stocks on your profile.
+                You can brief informationon your stocks quickly uch as the
+                CEO, website, and a description of the company.
+              </p>
+              <a href="https://github.com/KubaJ23/Stock-analysis-website" class="btn btn-outline-primary">View
+                Project</a>
             </div>
           </div>
-          <div class="col-md-6">
-            <div class="card project-card shadow-sm mb-4">
-              <img
-                src="images/projects/movies.png"
-                class="card-img-top"
-                alt="Project 2"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Movie Recommender Website</h5>
-                <p class="card-text">
-                  My full stack application for a website where you can search
-                  for movies, select a collection of movies to then get
-                  recommended 10 movies that are similar to your collection
-                  based on hundreds of different tags that identify features of
-                  a movie.
-                </p>
-                <a
-                  href=https://github.com/KubaJ23/Movie-recommender
-                  class="btn btn-outline-primary"
-                  >View Project</a
-                >
-              </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card project-card shadow-sm mb-4">
+            <img src="images/projects/movies.png" class="card-img-top" alt="Project 2" />
+            <div class="card-body">
+              <h5 class="card-title">Movie Recommender Website</h5>
+              <p class="card-text">
+                My full stack application for a website where you can search
+                for movies, select a collection of movies to then get
+                recommended 10 movies that are similar to your collection
+                based on hundreds of different tags that identify features of
+                a movie.
+              </p>
+              <a href=https://github.com/KubaJ23/Movie-recommender class="btn btn-outline-primary">View Project</a>
             </div>
           </div>
+        </div>
 
-          <div class="col-md-6">
-            <div class="card project-card shadow-sm mb-4">
-              <img
-                src="images/projects/mnist-dataset.gif"
-                class="card-img-top"
-                alt="Project 1"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Image Classification AI</h5>
-                <p class="card-text">
-                  Developed and trained my own ANN completely from scratch using
-                  Java. The program succesfully trained an AI model to correctly
-                  classify <strong>98%</strong> of all test images provided by
-                  the MNIST dataset.
-                </p>
-                <a
-                  href="https://github.com/KubaJ23/MNIST-classification-ANN"
-                  class="btn btn-outline-primary"
-                  >View Project</a
-                >
-              </div>
+        <div class="col-md-6">
+          <div class="card project-card shadow-sm mb-4">
+            <img src="images/projects/mnist-dataset.gif" class="card-img-top" alt="Project 1" />
+            <div class="card-body">
+              <h5 class="card-title">Image Classification AI</h5>
+              <p class="card-text">
+                Developed and trained my own ANN completely from scratch using
+                Java. The program succesfully trained an AI model to correctly
+                classify <strong>98%</strong> of all test images provided by
+                the MNIST dataset.
+              </p>
+              <a href="https://github.com/KubaJ23/MNIST-classification-ANN" class="btn btn-outline-primary">View
+                Project</a>
             </div>
           </div>
-          <div class="col-md-6">
-            <div class="card project-card shadow-sm mb-4">
-              <img
-                src="images/projects/maze-app.png"
-                class="card-img-top"
-                alt="Project 1"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Maze Generate and Solver</h5>
-                <p class="card-text">
-                  An application that allows you to generate, visualise, create,
-                  save, and solve different types of mazes such as 3D, circle
-                  and regular square mazes. The app gives the user a high level
-                  of customisation for generating mazes including a rich choice
-                  of which algorithms to use for generating (Kruskal's, Prim's,
-                  Eller's, etc.) and solving mazes.
-                </p>
-                <a
-                  href="https://github.com/KubaJ23/Maze-generator-and-solver"
-                  class="btn btn-outline-primary"
-                  >View Project</a
-                >
-              </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card project-card shadow-sm mb-4">
+            <img src="images/projects/maze-app.png" class="card-img-top" alt="Project 1" />
+            <div class="card-body">
+              <h5 class="card-title">Maze Generate and Solver</h5>
+              <p class="card-text">
+                An application that allows you to generate, visualise, create,
+                save, and solve different types of mazes such as 3D, circle
+                and regular square mazes. The app gives the user a high level
+                of customisation for generating mazes including a rich choice
+                of which algorithms to use for generating (Kruskal's, Prim's,
+                Eller's, etc.) and solving mazes.
+              </p>
+              <a href="https://github.com/KubaJ23/Maze-generator-and-solver" class="btn btn-outline-primary">View
+                Project</a>
             </div>
           </div>
-          <div class="col-md-6">
-            <div class="card project-card shadow-sm mb-4">
-              <img
-                src="images/projects/billiards.png"
-                class="card-img-top"
-                alt="Project 2"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Billiards</h5>
-                <p class="card-text">
-                  It is the game of billiards we know and love. I implemented
-                  the physics completely from scratch.
-                </p>
-                <a
-                  href="https://github.com/KubaJ23/Billiards"
-                  class="btn btn-outline-primary"
-                  >View Project</a
-                >
-              </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card project-card shadow-sm mb-4">
+            <img src="images/projects/billiards.png" class="card-img-top" alt="Project 2" />
+            <div class="card-body">
+              <h5 class="card-title">Billiards</h5>
+              <p class="card-text">
+                It is the game of billiards we know and love. I implemented
+                the physics completely from scratch.
+              </p>
+              <a href="https://github.com/KubaJ23/Billiards" class="btn btn-outline-primary">View Project</a>
             </div>
           </div>
-          <div class="col-md-6">
-            <div class="card project-card shadow-sm mb-4">
-              <img
-                src="images/projects/chess.png"
-                class="card-img-top"
-                alt="Project 1"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Chess</h5>
-                <p class="card-text">
-                  A chess game interface and my own simple chess game engine
-                  programmed in C# using windows forms
-                </p>
-                <a href="https://github.com/KubaJ23/Chess-game" class="btn btn-outline-primary"
-                  >View Project</a
-                >
-              </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card project-card shadow-sm mb-4">
+            <img src="images/projects/chess.png" class="card-img-top" alt="Project 1" />
+            <div class="card-body">
+              <h5 class="card-title">Chess</h5>
+              <p class="card-text">
+                A chess game interface and my own simple chess game engine
+                programmed in C# using windows forms
+              </p>
+              <a href="https://github.com/KubaJ23/Chess-game" class="btn btn-outline-primary">View Project</a>
             </div>
           </div>
-          <div class="col-md-6">
-            <div class="card project-card shadow-sm mb-4">
-              <img
-                src="images/projects/minesweeper.png"
-                class="card-img-top"
-                alt="Project 1"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Minesweeper</h5>
-                <p class="card-text">
-                  A Minesweeper game coded in C# using windows forms.
-                </p>
-                <a
-                  href="https://github.com/KubaJ23/Minesweeper"
-                  class="btn btn-outline-primary"
-                  >View Project</a
-                >
-              </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card project-card shadow-sm mb-4">
+            <img src="images/projects/minesweeper.png" class="card-img-top" alt="Project 1" />
+            <div class="card-body">
+              <h5 class="card-title">Minesweeper</h5>
+              <p class="card-text">
+                A Minesweeper game coded in C# using windows forms.
+              </p>
+              <a href="https://github.com/KubaJ23/Minesweeper" class="btn btn-outline-primary">View Project</a>
             </div>
           </div>
-          <div class="col-md-6">
-            <div class="card project-card shadow-sm mb-4">
-              <img
-                src="images/projects/flappy-bird.png"
-                class="card-img-top"
-                alt="Project 2"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Flappy bird</h5>
-                <p class="card-text">
-                  A flappy bird game programmed in C# using windows Forms.
-                </p>
-                <a
-                  href="https://github.com/KubaJ23/Flappy-bird"
-                  class="btn btn-outline-primary"
-                  >View Project</a
-                >
-              </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card project-card shadow-sm mb-4">
+            <img src="images/projects/flappy-bird.png" class="card-img-top" alt="Project 2" />
+            <div class="card-body">
+              <h5 class="card-title">Flappy bird</h5>
+              <p class="card-text">
+                A flappy bird game programmed in C# using windows Forms.
+              </p>
+              <a href="https://github.com/KubaJ23/Flappy-bird" class="btn btn-outline-primary">View Project</a>
             </div>
           </div>
+        </div>
 
-          <div class="col-md-6">
-            <div class="card project-card shadow-sm mb-4">
-              <img
-                src="images/projects/huffman-coding.png"
-                class="card-img-top"
-                alt="Project 2"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Huffman Compression program</h5>
-                <p class="card-text">
-                  A Huffman coding program that can compile your data losslessly
-                </p>
-                <a
-                  href="https://github.com/KubaJ23/Huffman-compression-app"
-                  class="btn btn-outline-primary"
-                  >View Project</a
-                >
-              </div>
+        <div class="col-md-6">
+          <div class="card project-card shadow-sm mb-4">
+            <img src="images/projects/huffman-coding.png" class="card-img-top" alt="Project 2" />
+            <div class="card-body">
+              <h5 class="card-title">Huffman Compression program</h5>
+              <p class="card-text">
+                A Huffman coding program that can compile your data losslessly
+              </p>
+              <a href="https://github.com/KubaJ23/Huffman-compression-app" class="btn btn-outline-primary">View
+                Project</a>
             </div>
           </div>
-          <div class="col-md-6">
-            <div class="card project-card shadow-sm mb-4">
-              <img
-                src="images/projects/sudoku-app.png"
-                class="card-img-top"
-                alt="Project 1"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Sudoku Generator and Solver</h5>
-                <p class="card-text">
-                  Web application where you can generate a sudoku, try to solve
-                  it manually or automatically.
-                </p>
-                <a
-                  href="https://github.com/KubaJ23/Sudoku-generator-and-solver"
-                  class="btn btn-outline-primary"
-                  >View Project</a
-                >
-              </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card project-card shadow-sm mb-4">
+            <img src="images/projects/sudoku-app.png" class="card-img-top" alt="Project 1" />
+            <div class="card-body">
+              <h5 class="card-title">Sudoku Generator and Solver</h5>
+              <p class="card-text">
+                Web application where you can generate a sudoku, try to solve
+                it manually or automatically.
+              </p>
+              <a href="https://github.com/KubaJ23/Sudoku-generator-and-solver" class="btn btn-outline-primary">View
+                Project</a>
             </div>
           </div>
-          <div class="col-md-6">
-            <div class="card project-card shadow-sm mb-4">
-              <img
-                src="images/projects/image-processor.png"
-                class="card-img-top"
-                alt="Project 2"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Clustering Image Processor app</h5>
-                <p class="card-text">
-                  A simple web app where you can upload any image, and ,using
-                  the K-means clustering AI method to cluster data, it will
-                  return your image using a limited colour palette. I
-                  implemented the K-means clustering completely from scratch.
-                </p>
-                <a
-                  href="https://github.com/KubaJ23/K-mean-image-processor-web-app"
-                  class="btn btn-outline-primary"
-                  >View Project</a
-                >
-              </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card project-card shadow-sm mb-4">
+            <img src="images/projects/image-processor.png" class="card-img-top" alt="Project 2" />
+            <div class="card-body">
+              <h5 class="card-title">Clustering Image Processor app</h5>
+              <p class="card-text">
+                A simple web app where you can upload any image, and ,using
+                the K-means clustering AI method to cluster data, it will
+                return your image using a limited colour palette. I
+                implemented the K-means clustering completely from scratch.
+              </p>
+              <a href="https://github.com/KubaJ23/K-mean-image-processor-web-app" class="btn btn-outline-primary">View
+                Project</a>
             </div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Skills Section -->
-    <section id="skills" class="py-5">
-      <div class="container py-3">
-        <h2 class="text-center mb-3">Technical Skills</h2>
-        <div class="row">
-          <div class="col-md-4">
-            <div class="skill-box p-3 mb-3">Java</div>
-          </div>
-          <div class="col-md-4">
-            <div class="skill-box p-3 mb-3">C</div>
-          </div>
-          <div class="col-md-4">
-            <div class="skill-box p-3 mb-3">Python</div>
-          </div>
-          <div class="col-md-4">
-            <div class="skill-box p-3 mb-3">C#</div>
-          </div>
-          <div class="col-md-4">
-            <div class="skill-box p-3 mb-3">SQL</div>
-          </div>
-          <div class="col-md-4">
-            <div class="skill-box p-3 mb-3">JavaScript</div>
-          </div>
-          <div class="col-md-4">
-            <div class="skill-box p-3 mb-3">React</div>
-          </div>
-          <div class="col-md-4">
-            <div class="skill-box p-3 mb-3">Git</div>
-          </div>
-          <div class="col-md-4">
-            <div class="skill-box p-3 mb-3">Docker</div>
-          </div>
-          <div class="col-md-4">
-            <div class="skill-box p-3 mb-3">Spring</div>
-          </div>
-          <div class="col-md-4">
-            <div class="skill-box p-3 mb-3">Node JS</div>
-          </div>
-          <div class="col-md-4">
-            <div class="skill-box p-3 mb-3">HTML</div>
-          </div>
-          <div class="col-md-4">
-            <div class="skill-box p-3 mb-3">CSS</div>
-          </div>
-          <div class="col-md-4">
-            <div class="skill-box p-3 mb-3">Django</div>
-          </div>
-          <div class="col-md-4">
-            <div class="skill-box p-3 mb-3">MongoDB</div>
-          </div>
-          <div class="col-md-4">
-            <div class="skill-box p-3 mb-3">PostgreSQL</div>
-          </div>
-          <div class="col-md-4">
-            <div class="skill-box p-3 mb-3">Linux</div>
-          </div>
-          <div class="col-md-4">
-            <div class="skill-box p-3 mb-3">Haskell</div>
-          </div>
-          <div class="col-md-4">
-            <div class="skill-box p-3 mb-3">Agile Methodologies</div>
-          </div>
-          <div class="col-md-4">
-            <div class="skill-box p-3 mb-3">AI / ML</div>
-          </div>
-          <div class="col-md-4">
-            <div class="skill-box p-3 mb-3">System design</div>
-          </div>
+  <!-- Skills Section -->
+  <section id="skills" class="py-5">
+    <div class="container py-3">
+      <h2 class="text-center mb-3">Technical Skills</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="skill-box p-3 mb-3">Java</div>
         </div>
-
-        <h2 class="text-center mt-4 mb-3">Soft Skills</h2>
-        <div class="row">
-          <div class="col-md-4">
-            <div class="skill-box p-3 mb-3">Communication</div>
-          </div>
-          <div class="col-md-4">
-            <div class="skill-box p-3 mb-3">Teamwork</div>
-          </div>
-          <div class="col-md-4">
-            <div class="skill-box p-3 mb-3">Problem-Solving</div>
-          </div>
-          <div class="col-md-4">
-            <div class="skill-box p-3 mb-3">Organised</div>
-          </div>
-          <div class="col-md-4">
-            <div class="skill-box p-3 mb-3">Time Management</div>
-          </div>
-          <div class="col-md-4">
-            <div class="skill-box p-3 mb-3">Public Speaking</div>
-          </div>
-          <div class="col-md-4">
-            <div class="skill-box p-3 mb-3">Critical Thinking</div>
-          </div>
-          <div class="col-md-4">
-            <div class="skill-box p-3 mb-3">Resourceful</div>
-          </div>
-          <div class="col-md-4">
-            <div class="skill-box p-3 mb-3">Attention to detail</div>
-          </div>
-          <div class="col-md-4">
-            <div class="skill-box p-3 mb-3">Creative</div>
-          </div>
-          <div class="col-md-4">
-            <div class="skill-box p-3 mb-3">Self-Motivation</div>
-          </div>
-          <div class="col-md-4">
-            <div class="skill-box p-3 mb-3">Adaptability</div>
-          </div>
+        <div class="col-md-4">
+          <div class="skill-box p-3 mb-3">C</div>
+        </div>
+        <div class="col-md-4">
+          <div class="skill-box p-3 mb-3">Python</div>
+        </div>
+        <div class="col-md-4">
+          <div class="skill-box p-3 mb-3">C#</div>
+        </div>
+        <div class="col-md-4">
+          <div class="skill-box p-3 mb-3">SQL</div>
+        </div>
+        <div class="col-md-4">
+          <div class="skill-box p-3 mb-3">JavaScript</div>
+        </div>
+        <div class="col-md-4">
+          <div class="skill-box p-3 mb-3">React</div>
+        </div>
+        <div class="col-md-4">
+          <div class="skill-box p-3 mb-3">Git</div>
+        </div>
+        <div class="col-md-4">
+          <div class="skill-box p-3 mb-3">Docker</div>
+        </div>
+        <div class="col-md-4">
+          <div class="skill-box p-3 mb-3">Spring</div>
+        </div>
+        <div class="col-md-4">
+          <div class="skill-box p-3 mb-3">Node JS</div>
+        </div>
+        <div class="col-md-4">
+          <div class="skill-box p-3 mb-3">HTML</div>
+        </div>
+        <div class="col-md-4">
+          <div class="skill-box p-3 mb-3">CSS</div>
+        </div>
+        <div class="col-md-4">
+          <div class="skill-box p-3 mb-3">Django</div>
+        </div>
+        <div class="col-md-4">
+          <div class="skill-box p-3 mb-3">MongoDB</div>
+        </div>
+        <div class="col-md-4">
+          <div class="skill-box p-3 mb-3">PostgreSQL</div>
+        </div>
+        <div class="col-md-4">
+          <div class="skill-box p-3 mb-3">Linux</div>
+        </div>
+        <div class="col-md-4">
+          <div class="skill-box p-3 mb-3">Haskell</div>
+        </div>
+        <div class="col-md-4">
+          <div class="skill-box p-3 mb-3">Agile Methodologies</div>
+        </div>
+        <div class="col-md-4">
+          <div class="skill-box p-3 mb-3">AI / ML</div>
+        </div>
+        <div class="col-md-4">
+          <div class="skill-box p-3 mb-3">System design</div>
         </div>
       </div>
-    </section>
 
-    <!-- Bootstrap JS and jQuery -->
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+      <h2 class="text-center mt-4 mb-3">Soft Skills</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="skill-box p-3 mb-3">Communication</div>
+        </div>
+        <div class="col-md-4">
+          <div class="skill-box p-3 mb-3">Teamwork</div>
+        </div>
+        <div class="col-md-4">
+          <div class="skill-box p-3 mb-3">Problem-Solving</div>
+        </div>
+        <div class="col-md-4">
+          <div class="skill-box p-3 mb-3">Organised</div>
+        </div>
+        <div class="col-md-4">
+          <div class="skill-box p-3 mb-3">Time Management</div>
+        </div>
+        <div class="col-md-4">
+          <div class="skill-box p-3 mb-3">Public Speaking</div>
+        </div>
+        <div class="col-md-4">
+          <div class="skill-box p-3 mb-3">Critical Thinking</div>
+        </div>
+        <div class="col-md-4">
+          <div class="skill-box p-3 mb-3">Resourceful</div>
+        </div>
+        <div class="col-md-4">
+          <div class="skill-box p-3 mb-3">Attention to detail</div>
+        </div>
+        <div class="col-md-4">
+          <div class="skill-box p-3 mb-3">Creative</div>
+        </div>
+        <div class="col-md-4">
+          <div class="skill-box p-3 mb-3">Self-Motivation</div>
+        </div>
+        <div class="col-md-4">
+          <div class="skill-box p-3 mb-3">Adaptability</div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <!-- Smooth Scroll Script -->
-    <script>
-      $(document).ready(function () {
-        $("a.nav-link").on("click", function (event) {
-          var target = $(this).attr("href");
-          if ($(target).length) {
-            event.preventDefault();
+  <!-- Bootstrap JS and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-            // Get the height of the navbar dynamically
-            var navbarHeight = $(".navbar").outerHeight();
+  <!-- Smooth Scroll Script -->
+  <script>
+    $(document).ready(function () {
+      $("a.nav-link").on("click", function (event) {
+        var target = $(this).attr("href");
+        if ($(target).length) {
+          event.preventDefault();
 
-            $("html, body").animate(
-              {
-                // Subtract the navbar height from the scroll position
-                scrollTop: $(target).offset().top - navbarHeight,
-              },
-              500 // The scrolling speed in milliseconds
-            );
-          }
-        });
+          // Get the height of the navbar dynamically
+          var navbarHeight = $(".navbar").outerHeight();
+
+          $("html, body").animate(
+            {
+              // Subtract the navbar height from the scroll position
+              scrollTop: $(target).offset().top - navbarHeight,
+            },
+            500 // The scrolling speed in milliseconds
+          );
+        }
       });
-    </script>
-  </body>
-</html>
+    });
+  </script>
+</body>
 
+</html>
